@@ -48,9 +48,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\InputValidation\InputValidation.csproj">
+      <Project>{090fbf7e-6906-4b6e-9cb2-56e7c9efb7c2}</Project>
+      <Name>InputValidation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ThirdPartyTools\ThirdPartyTools.csproj">
       <Project>{16add673-64b2-43c8-92d9-ea5f2cc6863f}</Project>
       <Name>ThirdPartyTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wrappers\Wrappers.csproj">
+      <Project>{503c1a3d-f61d-461f-9e1b-0536793df948}</Project>
+      <Name>Wrappers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
