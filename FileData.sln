@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputValidationTests", "Inp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputValidation", "InputValidation\InputValidation.csproj", "{090FBF7E-6906-4B6E-9CB2-56E7C9EFB7C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyToolsWrapperTest", "ThirdPartyToolsWrapperTest\ThirdPartyToolsWrapperTest.csproj", "{1C94338C-7F4D-4C38-AB79-B71373571BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wrappers", "Wrappers\Wrappers.csproj", "{503C1A3D-F61D-461F-9E1B-0536793DF948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{090FBF7E-6906-4B6E-9CB2-56E7C9EFB7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{090FBF7E-6906-4B6E-9CB2-56E7C9EFB7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{090FBF7E-6906-4B6E-9CB2-56E7C9EFB7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C94338C-7F4D-4C38-AB79-B71373571BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C94338C-7F4D-4C38-AB79-B71373571BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C94338C-7F4D-4C38-AB79-B71373571BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C94338C-7F4D-4C38-AB79-B71373571BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503C1A3D-F61D-461F-9E1B-0536793DF948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503C1A3D-F61D-461F-9E1B-0536793DF948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503C1A3D-F61D-461F-9E1B-0536793DF948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503C1A3D-F61D-461F-9E1B-0536793DF948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
